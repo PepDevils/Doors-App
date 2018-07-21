@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_bramolde"
+    android:fillViewport="false"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_bramolde"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/img_produto"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:scaleType="fitCenter" />
+
+            <ImageView
+                android:id="@+id/img_produto_item"
+                android:layout_centerHorizontal="true"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:scaleType="fitCenter" />
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_t_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/linha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Linha:"
+                        android:textColor="@color/blue_bramolde" />
+
+                    <TextView
+                        android:id="@+id/edt_linha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/gray_bramolde" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_t_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/modelo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Modelo:"
+                        android:textColor="@color/blue_bramolde" />
+
+                    <TextView
+                        android:id="@+id/edt_modelo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/gray_bramolde" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_t_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/cor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cor:"
+                        android:textColor="@color/blue_bramolde" />
+
+                    <TextView
+                        android:id="@+id/edt_cor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/gray_bramolde" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_t_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/acabamentos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Acabamentos:"
+                        android:textColor="@color/blue_bramolde" />
+
+                    <TextView
+                        android:id="@+id/edt_acabamentos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/gray_bramolde" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/v_up"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:layout_weight="1">
+
+                </View>
+
+                <Button
+                    android:id="@+id/bt_guardar"
+                    android:layout_width="151dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/button_selector_info_content"
+                    android:textSize="@dimen/bottom_bar_textsize"
+                    android:text="GUARDAR IMAGEM" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                </View>
+
+
+                <Button
+                    android:id="@+id/bt_orcamento"
+                    android:layout_width="151dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/button_selector_info_content"
+                    android:textSize="@dimen/bottom_bar_textsize"
+                    android:text="PEDIR ORÇAMENTO" />
+
+                <View
+                    android:id="@+id/v_down"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:layout_weight="1">
+
+                </View>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

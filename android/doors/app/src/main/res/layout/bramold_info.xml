@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@color/white_bramolde"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Bramolde"
+        android:textAllCaps="true"
+        android:textColor="@color/blue_bramolde"
+        android:textSize="@dimen/bi_title"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/morada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Rua S. Vicente de Paulo, 41 [p]Parque industrial de Adaúfe [p]4710-593 [p]Adaúfe Braga [p]Portugal"
+        android:textColor="@color/gray_bramolde"
+        android:textSize="@dimen/bi_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tel. "
+            android:textColor="@color/blue_bramolde"
+            android:textSize="@dimen/bi_text" />
+
+        <TextView
+            android:id="@+id/tel_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="+351 253 628 974"
+            android:textColor="@color/gray_bramolde"
+            android:textSize="@dimen/bi_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fax. "
+            android:textColor="@color/blue_bramolde"
+            android:textSize="@dimen/bi_text" />
+
+        <TextView
+            android:id="@+id/fax_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="+351 253 628 973"
+            android:textColor="@color/gray_bramolde"
+            android:textSize="@dimen/bi_text" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="comercial@bramolde.pt"
+        android:textColor="@color/gray_bramolde"
+        android:textSize="@dimen/bi_text" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="5dp">
+
+    </View>
+
+</LinearLayout>

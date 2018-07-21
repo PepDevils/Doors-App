@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Doors</string>
+    <string name="bottom_bar_text">doors.xx</string>
+
+    <!--Instruccoes-->
+    <string name="ins_num_1">1</string>
+    <string name="ins_num_2">2</string>
+    <string name="ins_num_3">3</string>
+    <string name="ins_num_4">4</string>
+    <string name="ins_num_5">5</string>
+    <string name="ins_text_1">Tire uma fotografia à entrada da sua casa</string>
+    <string name="ins_text_2">Escolha a porta dos seus sonhos</string>
+    <string name="ins_text_3">Escolha a sua cor preferida</string>
+    <string name="ins_text_4">Guarde a sua criação</string>
+    <string name="ins_text_5">Entre em contacto e faça a sua encomenda</string>
+    <string name="title_activity_compra">CompraActivity</string>
+    <string name="title_activity_orcamento">OrcamentoActivity</string>
+
+
+</resources>

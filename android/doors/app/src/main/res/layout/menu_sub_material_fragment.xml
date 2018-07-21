@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pt.dezvezesdez.bramolde.view.CustomRecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="50dp"
+    android:minWidth="50dp"
+    android:scrollbars="horizontal"
+    android:background="@color/white_bramolde"
+    android:saveEnabled="true"
+    android:orientation="vertical">
+</pt.dezvezesdez.bramolde.view.CustomRecyclerView>

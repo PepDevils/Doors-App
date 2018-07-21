@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen> <!--//n-->
+    <dimen name="activity_vertical_margin">16dp</dimen> <!--//n-->
+
+    <!--barras superior e inferior-->
+    <dimen name="top_bar_height">64dp</dimen> <!--//n-->
+    <dimen name="bottom_bar_height">38dp</dimen> <!--//n-->
+    <dimen name="bottom_bar_textsize">12sp</dimen>
+
+    <!-- botões de ecrãn inicial-->
+    <dimen name="buttom_height">30dp</dimen> <!--//n-->
+    <dimen name="buttom_width">200dp</dimen> <!--//n-->
+
+    <!--Instruccoes-->
+    <dimen name="ins_num_size">12sp</dimen>
+    <dimen name="ins_text_size">14sp</dimen>
+    <dimen name="ins_circular_dim">15dp</dimen>
+
+    <!--barra editor pallete icons-->
+    <dimen name="arrow_indicator">10dp</dimen>
+    <dimen name="icon_menu">44dp</dimen>
+    <dimen name="icon_height_menu">55dp</dimen>
+
+    <!--escolha foto ou galeria-->
+    <dimen name="choose_text_size">12sp</dimen>
+    <dimen name="fab_margin">8dp</dimen>
+
+
+    <dimen name="colorGridColumnWidth">26dp</dimen> //52
+
+
+</resources>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white_bramolde"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+            </View>
+
+
+            <Button
+                android:id="@+id/bt_rotator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_soft_bramolde"
+                android:text="Rodar +"
+                android:textColor="@drawable/button_text_color_"
+                android:textStyle="bold" />
+
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+            </View>
+
+            <Button
+                android:id="@+id/bt_rotator_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_soft_bramolde"
+                android:text="Rodar x +"
+                android:textColor="@drawable/button_text_color_"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+            </View>
+
+            <Button
+                android:id="@+id/bt_rotator_y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_soft_bramolde"
+                android:text="Rodar y +"
+                android:textColor="@drawable/button_text_color_"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1">
+
+            </View>
+
+            <Button
+                android:id="@+id/bt_rotator_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_bramolde"
+                android:text="Limpar"
+                android:textColor="@drawable/button_text_color"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+            </View>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+            </View>
+
+
+            <Button
+                android:id="@+id/bt_rotator_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_soft_bramolde"
+                android:text="Rodar -"
+                android:textColor="@drawable/button_text_color_"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+            </View>
+
+            <Button
+                android:id="@+id/bt_rotator_x_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_soft_bramolde"
+                android:text="Rodar x -"
+                android:textColor="@drawable/button_text_color_"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+            </View>
+
+            <Button
+                android:id="@+id/bt_rotator_y_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_soft_bramolde"
+                android:text="Rodar y -"
+                android:textColor="@drawable/button_text_color_"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1">
+
+            </View>
+
+            <Button
+                android:id="@+id/bt_mirror"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_bramolde"
+                android:text="Espelho"
+                android:textColor="@drawable/button_text_color"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+            </View>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</HorizontalScrollView>

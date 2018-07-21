@@ -1,0 +1,17 @@
+PODS:
+  - RCActionView (1.0.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - RCActionView
+  - SDWebImage (~> 3.8)
+
+SPEC CHECKSUMS:
+  RCActionView: e3a8f0e367d7717789bfcfff18c62c79ac4326fd
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: 220f10c560d53a26874733004b14b5bbf580a106
+
+COCOAPODS: 1.1.1

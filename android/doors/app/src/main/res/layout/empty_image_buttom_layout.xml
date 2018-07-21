@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:padding="3dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/choose_text_size"
+        android:textColor="@color/blue_bramolde"
+        android:text="line"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:background="@color/transparente_back_item_bramolde"
+        android:padding="5dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitCenter"
+        android:layout_margin="3dp"/>
+
+    <TextView
+        android:id="@+id/model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/choose_text_size"
+        android:textColor="@color/blue_bramolde"
+        android:text="model"/>
+
+</LinearLayout>

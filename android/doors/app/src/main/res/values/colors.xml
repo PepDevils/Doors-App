@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0d243d</color>
+    <color name="colorPrimaryDark">#737474</color>
+    <color name="colorAccent">#42a5f5</color>
+
+    <!--Bramolde-->
+    <color name="blue_doors">#0d243d</color>
+    <color name="gray_doors">#737474</color>
+    <color name="gray_soft_doors">#bec0c2</color>
+    <color name="white_doors">#FFFFFF</color>
+    <color name="transparente_white_doors">#bbFFFFFF</color>
+    <color name="transparente_doors">#00FFFFFF</color>
+    <color name="transparente_back_item_doors">#11000000</color>
+
+    <!--CircularTextView-->
+    <color name="circle_color">#0d243d</color>
+    <color name="stroke_color">#0d243d</color>
+
+
+</resources>

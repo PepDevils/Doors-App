@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		690B8C471E23D0FF00C2B5A5 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690B8C461E23D0FF00C2B5A5 /* GlobalVariables.swift */; };
+		6917D5251E1D3C3500A5A688 /* CustomPhotoAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6917D5241E1D3C3500A5A688 /* CustomPhotoAlbum.swift */; };
+		6917D5271E1D3D0100A5A688 /* ViewControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6917D5261E1D3D0100A5A688 /* ViewControllerMain.swift */; };
+		692FEC281E2D24AA0071C10C /* CollectionViewCellDoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692FEC271E2D24AA0071C10C /* CollectionViewCellDoor.swift */; };
+		6952BF2F1E43590D00F53592 /* Titillium-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6952BF261E43590D00F53592 /* Titillium-Light.otf */; };
+		6952BF301E43590D00F53592 /* Titillium-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6952BF271E43590D00F53592 /* Titillium-LightItalic.otf */; };
+		6952BF311E43590D00F53592 /* Titillium-LightUpright.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6952BF281E43590D00F53592 /* Titillium-LightUpright.otf */; };
+		6952BF321E43590D00F53592 /* Titillium-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6952BF291E43590D00F53592 /* Titillium-Semibold.otf */; };
+		6952BF331E43590D00F53592 /* Titillium-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6952BF2A1E43590D00F53592 /* Titillium-SemiboldItalic.otf */; };
+		6952BF341E43590D00F53592 /* Titillium-SemiboldUpright.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6952BF2B1E43590D00F53592 /* Titillium-SemiboldUpright.otf */; };
+		6952BF351E43590D00F53592 /* Titillium-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6952BF2C1E43590D00F53592 /* Titillium-Thin.otf */; };
+		6952BF361E43590D00F53592 /* Titillium-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6952BF2D1E43590D00F53592 /* Titillium-ThinItalic.otf */; };
+		6952BF371E43590D00F53592 /* Titillium-ThinUpright.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6952BF2E1E43590D00F53592 /* Titillium-ThinUpright.otf */; };
+		696BF0041E1BC64E00344173 /* Titillium-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 696BEFF41E1BC64E00344173 /* Titillium-Black.otf */; };
+		696BF0051E1BC64E00344173 /* Titillium-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 696BEFF51E1BC64E00344173 /* Titillium-Bold.otf */; };
+		696BF0061E1BC64E00344173 /* Titillium-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 696BEFF61E1BC64E00344173 /* Titillium-BoldItalic.otf */; };
+		696BF0071E1BC64F00344173 /* Titillium-BoldUpright.otf in Resources */ = {isa = PBXBuildFile; fileRef = 696BEFF71E1BC64E00344173 /* Titillium-BoldUpright.otf */; };
+		696BF00B1E1BC64F00344173 /* Titillium-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 696BEFFB1E1BC64E00344173 /* Titillium-Regular.otf */; };
+		696BF00C1E1BC64F00344173 /* Titillium-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 696BEFFC1E1BC64E00344173 /* Titillium-RegularItalic.otf */; };
+		696BF00D1E1BC64F00344173 /* Titillium-RegularUpright.otf in Resources */ = {isa = PBXBuildFile; fileRef = 696BEFFD1E1BC64E00344173 /* Titillium-RegularUpright.otf */; };
+		696BF0171E1BEC5C00344173 /* ViewControllerInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696BF0161E1BEC5C00344173 /* ViewControllerInstruction.swift */; };
+		696BF0191E1C097B00344173 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696BF0181E1C097B00344173 /* InitialViewController.swift */; };
+		696BF01B1E1C0CD000344173 /* ViewControllerStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696BF01A1E1C0CD000344173 /* ViewControllerStart.swift */; };
+		6985E5AB1E1FABDF0043BCC2 /* ViewControllerOrcamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6985E5AA1E1FABDF0043BCC2 /* ViewControllerOrcamento.swift */; };
+		69A1E5691E1BA3DC0005D3C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A1E5681E1BA3DC0005D3C5 /* AppDelegate.swift */; };
+		69A1E56B1E1BA3DC0005D3C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A1E56A1E1BA3DC0005D3C5 /* ViewController.swift */; };
+		69A1E56E1E1BA3DC0005D3C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A1E56C1E1BA3DC0005D3C5 /* Main.storyboard */; };
+		69A1E5701E1BA3DC0005D3C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A1E56F1E1BA3DC0005D3C5 /* Assets.xcassets */; };
+		69A1E5731E1BA3DC0005D3C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A1E5711E1BA3DC0005D3C5 /* LaunchScreen.storyboard */; };
+		69D486821E3671670042B704 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D486811E3671670042B704 /* Toast.swift */; };
+		C073650024D89210EC62CE20 /* Pods_doors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B196FD7B0D46A11F0DFB22A /* Pods_doors.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		690B8C461E23D0FF00C2B5A5 /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		6917D5241E1D3C3500A5A688 /* CustomPhotoAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPhotoAlbum.swift; sourceTree = "<group>"; };
+		6917D5261E1D3D0100A5A688 /* ViewControllerMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMain.swift; sourceTree = "<group>"; };
+		692FEC271E2D24AA0071C10C /* CollectionViewCellDoor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellDoor.swift; sourceTree = "<group>"; };
+		6952BF261E43590D00F53592 /* Titillium-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Titillium-Light.otf"; path = "fonts/Titillium-Light.otf"; sourceTree = "<group>"; };
+		6952BF271E43590D00F53592 /* Titillium-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Titillium-LightItalic.otf"; path = "fonts/Titillium-LightItalic.otf"; sourceTree = "<group>"; };
+		6952BF281E43590D00F53592 /* Titillium-LightUpright.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Titillium-LightUpright.otf"; path = "fonts/Titillium-LightUpright.otf"; sourceTree = "<group>"; };
+		6952BF291E43590D00F53592 /* Titillium-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Titillium-Semibold.otf"; path = "fonts/Titillium-Semibold.otf"; sourceTree = "<group>"; };
+		6952BF2A1E43590D00F53592 /* Titillium-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Titillium-SemiboldItalic.otf"; path = "fonts/Titillium-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		6952BF2B1E43590D00F53592 /* Titillium-SemiboldUpright.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Titillium-SemiboldUpright.otf"; path = "fonts/Titillium-SemiboldUpright.otf"; sourceTree = "<group>"; };
+		6952BF2C1E43590D00F53592 /* Titillium-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Titillium-Thin.otf"; path = "fonts/Titillium-Thin.otf"; sourceTree = "<group>"; };
+		6952BF2D1E43590D00F53592 /* Titillium-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Titillium-ThinItalic.otf"; path = "fonts/Titillium-ThinItalic.otf"; sourceTree = "<group>"; };
+		6952BF2E1E43590D00F53592 /* Titillium-ThinUpright.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Titillium-ThinUpright.otf"; path = "fonts/Titillium-ThinUpright.otf"; sourceTree = "<group>"; };
+		696BEFF41E1BC64E00344173 /* Titillium-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Titillium-Black.otf"; path = "fonts/Titillium-Black.otf"; sourceTree = "<group>"; };
+		696BEFF51E1BC64E00344173 /* Titillium-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Titillium-Bold.otf"; path = "fonts/Titillium-Bold.otf"; sourceTree = "<group>"; };
+		696BEFF61E1BC64E00344173 /* Titillium-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Titillium-BoldItalic.otf"; path = "fonts/Titillium-BoldItalic.otf"; sourceTree = "<group>"; };
+		696BEFF71E1BC64E00344173 /* Titillium-BoldUpright.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Titillium-BoldUpright.otf"; path = "fonts/Titillium-BoldUpright.otf"; sourceTree = "<group>"; };
+		696BEFFB1E1BC64E00344173 /* Titillium-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Titillium-Regular.otf"; path = "fonts/Titillium-Regular.otf"; sourceTree = "<group>"; };
+		696BEFFC1E1BC64E00344173 /* Titillium-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Titillium-RegularItalic.otf"; path = "fonts/Titillium-RegularItalic.otf"; sourceTree = "<group>"; };
+		696BEFFD1E1BC64E00344173 /* Titillium-RegularUpright.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Titillium-RegularUpright.otf"; path = "fonts/Titillium-RegularUpright.otf"; sourceTree = "<group>"; };
+		696BF0161E1BEC5C00344173 /* ViewControllerInstruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerInstruction.swift; sourceTree = "<group>"; };
+		696BF0181E1C097B00344173 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		696BF01A1E1C0CD000344173 /* ViewControllerStart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerStart.swift; sourceTree = "<group>"; };
+		6985E5AA1E1FABDF0043BCC2 /* ViewControllerOrcamento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerOrcamento.swift; sourceTree = "<group>"; };
+		69A1E5651E1BA3DC0005D3C5 /* doors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A1E5681E1BA3DC0005D3C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69A1E56A1E1BA3DC0005D3C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69A1E56D1E1BA3DC0005D3C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69A1E56F1E1BA3DC0005D3C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69A1E5721E1BA3DC0005D3C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69A1E5741E1BA3DC0005D3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D486811E3671670042B704 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		7B196FD7B0D46A11F0DFB22A /* Pods_doors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_doors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCFE20EC10A1FF66D22260A /* Pods-doors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doors.release.xcconfig"; path = "Pods/Target Support Files/Pods-doors/Pods-doors.release.xcconfig"; sourceTree = "<group>"; };
+		C04A90E8CAF5FDCCFD5A0D2A /* Pods-doors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-doors/Pods-doors.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69A1E5621E1BA3DC0005D3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C073650024D89210EC62CE20 /* Pods_doors.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B7FB1F6B06D6F9A78874957 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B196FD7B0D46A11F0DFB22A /* Pods_doors.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69A1E55C1E1BA3DC0005D3C5 = {
+			isa = PBXGroup;
+			children = (
+				69A1E5671E1BA3DC0005D3C5 /* doors */,
+				69A1E5661E1BA3DC0005D3C5 /* Products */,
+				BC8CE2219AA1C082850113D0 /* Pods */,
+				4B7FB1F6B06D6F9A78874957 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69A1E5661E1BA3DC0005D3C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69A1E5651E1BA3DC0005D3C5 /* doors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69A1E5671E1BA3DC0005D3C5 /* doors */ = {
+			isa = PBXGroup;
+			children = (
+				69A1E5681E1BA3DC0005D3C5 /* AppDelegate.swift */,
+				696BF0181E1C097B00344173 /* InitialViewController.swift */,
+				69A1E56A1E1BA3DC0005D3C5 /* ViewController.swift */,
+				696BF0161E1BEC5C00344173 /* ViewControllerInstruction.swift */,
+				696BF01A1E1C0CD000344173 /* ViewControllerStart.swift */,
+				6917D5241E1D3C3500A5A688 /* CustomPhotoAlbum.swift */,
+				6917D5261E1D3D0100A5A688 /* ViewControllerMain.swift */,
+				6985E5AA1E1FABDF0043BCC2 /* ViewControllerOrcamento.swift */,
+				690B8C461E23D0FF00C2B5A5 /* GlobalVariables.swift */,
+				692FEC271E2D24AA0071C10C /* CollectionViewCellDoor.swift */,
+				69D486811E3671670042B704 /* Toast.swift */,
+				69A1E56C1E1BA3DC0005D3C5 /* Main.storyboard */,
+				69A1E56F1E1BA3DC0005D3C5 /* Assets.xcassets */,
+				696BEFF41E1BC64E00344173 /* Titillium-Black.otf */,
+				696BEFF51E1BC64E00344173 /* Titillium-Bold.otf */,
+				696BEFF61E1BC64E00344173 /* Titillium-BoldItalic.otf */,
+				696BEFF71E1BC64E00344173 /* Titillium-BoldUpright.otf */,
+				696BEFFB1E1BC64E00344173 /* Titillium-Regular.otf */,
+				696BEFFC1E1BC64E00344173 /* Titillium-RegularItalic.otf */,
+				696BEFFD1E1BC64E00344173 /* Titillium-RegularUpright.otf */,
+				6952BF261E43590D00F53592 /* Titillium-Light.otf */,
+				6952BF271E43590D00F53592 /* Titillium-LightItalic.otf */,
+				6952BF281E43590D00F53592 /* Titillium-LightUpright.otf */,
+				6952BF291E43590D00F53592 /* Titillium-Semibold.otf */,
+				6952BF2A1E43590D00F53592 /* Titillium-SemiboldItalic.otf */,
+				6952BF2B1E43590D00F53592 /* Titillium-SemiboldUpright.otf */,
+				6952BF2C1E43590D00F53592 /* Titillium-Thin.otf */,
+				6952BF2D1E43590D00F53592 /* Titillium-ThinItalic.otf */,
+				6952BF2E1E43590D00F53592 /* Titillium-ThinUpright.otf */,
+				69A1E5711E1BA3DC0005D3C5 /* LaunchScreen.storyboard */,
+				69A1E5741E1BA3DC0005D3C5 /* Info.plist */,
+			);
+			path = doors;
+			sourceTree = "<group>";
+		};
+		BC8CE2219AA1C082850113D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C04A90E8CAF5FDCCFD5A0D2A /* Pods-doors.debug.xcconfig */,
+				ADCFE20EC10A1FF66D22260A /* Pods-doors.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69A1E5641E1BA3DC0005D3C5 /* doors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A1E5771E1BA3DC0005D3C5 /* Build configuration list for PBXNativeTarget "doors" */;
+			buildPhases = (
+				A93A075CB802920EDCA92BF7 /* [CP] Check Pods Manifest.lock */,
+				69A1E5611E1BA3DC0005D3C5 /* Sources */,
+				69A1E5621E1BA3DC0005D3C5 /* Frameworks */,
+				69A1E5631E1BA3DC0005D3C5 /* Resources */,
+				F8A475A58CFB6BFA5404B71B /* [CP] Embed Pods Frameworks */,
+				4213274C6B2A23C77AB2409E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = doors;
+			productName = doors;
+			productReference = 69A1E5651E1BA3DC0005D3C5 /* doors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69A1E55D1E1BA3DC0005D3C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "pepdevils ";
+				TargetAttributes = {
+					69A1E5641E1BA3DC0005D3C5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TGRX5A654G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 69A1E5601E1BA3DC0005D3C5 /* Build configuration list for PBXProject "doors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69A1E55C1E1BA3DC0005D3C5;
+			productRefGroup = 69A1E5661E1BA3DC0005D3C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69A1E5641E1BA3DC0005D3C5 /* doors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69A1E5631E1BA3DC0005D3C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6952BF341E43590D00F53592 /* Titillium-SemiboldUpright.otf in Resources */,
+				6952BF321E43590D00F53592 /* Titillium-Semibold.otf in Resources */,
+				6952BF301E43590D00F53592 /* Titillium-LightItalic.otf in Resources */,
+				696BF00B1E1BC64F00344173 /* Titillium-Regular.otf in Resources */,
+				696BF0051E1BC64E00344173 /* Titillium-Bold.otf in Resources */,
+				6952BF351E43590D00F53592 /* Titillium-Thin.otf in Resources */,
+				696BF0061E1BC64E00344173 /* Titillium-BoldItalic.otf in Resources */,
+				69A1E5731E1BA3DC0005D3C5 /* LaunchScreen.storyboard in Resources */,
+				6952BF2F1E43590D00F53592 /* Titillium-Light.otf in Resources */,
+				69A1E5701E1BA3DC0005D3C5 /* Assets.xcassets in Resources */,
+				6952BF331E43590D00F53592 /* Titillium-SemiboldItalic.otf in Resources */,
+				69A1E56E1E1BA3DC0005D3C5 /* Main.storyboard in Resources */,
+				6952BF371E43590D00F53592 /* Titillium-ThinUpright.otf in Resources */,
+				696BF0041E1BC64E00344173 /* Titillium-Black.otf in Resources */,
+				696BF0071E1BC64F00344173 /* Titillium-BoldUpright.otf in Resources */,
+				6952BF361E43590D00F53592 /* Titillium-ThinItalic.otf in Resources */,
+				696BF00C1E1BC64F00344173 /* Titillium-RegularItalic.otf in Resources */,
+				696BF00D1E1BC64F00344173 /* Titillium-RegularUpright.otf in Resources */,
+				6952BF311E43590D00F53592 /* Titillium-LightUpright.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4213274C6B2A23C77AB2409E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-doors/Pods-doors-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A93A075CB802920EDCA92BF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A475A58CFB6BFA5404B71B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-doors/Pods-doors-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69A1E5611E1BA3DC0005D3C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A1E56B1E1BA3DC0005D3C5 /* ViewController.swift in Sources */,
+				696BF0171E1BEC5C00344173 /* ViewControllerInstruction.swift in Sources */,
+				696BF01B1E1C0CD000344173 /* ViewControllerStart.swift in Sources */,
+				690B8C471E23D0FF00C2B5A5 /* GlobalVariables.swift in Sources */,
+				692FEC281E2D24AA0071C10C /* CollectionViewCellDoor.swift in Sources */,
+				6917D5251E1D3C3500A5A688 /* CustomPhotoAlbum.swift in Sources */,
+				69A1E5691E1BA3DC0005D3C5 /* AppDelegate.swift in Sources */,
+				6917D5271E1D3D0100A5A688 /* ViewControllerMain.swift in Sources */,
+				69D486821E3671670042B704 /* Toast.swift in Sources */,
+				696BF0191E1C097B00344173 /* InitialViewController.swift in Sources */,
+				6985E5AB1E1FABDF0043BCC2 /* ViewControllerOrcamento.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69A1E56C1E1BA3DC0005D3C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69A1E56D1E1BA3DC0005D3C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69A1E5711E1BA3DC0005D3C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69A1E5721E1BA3DC0005D3C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69A1E5751E1BA3DC0005D3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69A1E5761E1BA3DC0005D3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69A1E5781E1BA3DC0005D3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04A90E8CAF5FDCCFD5A0D2A /* Pods-doors.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TGRX5A654G;
+				INFOPLIST_FILE = doors/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pepdevils.doors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		69A1E5791E1BA3DC0005D3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADCFE20EC10A1FF66D22260A /* Pods-doors.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TGRX5A654G;
+				INFOPLIST_FILE = doors/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pepdevils.doors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69A1E5601E1BA3DC0005D3C5 /* Build configuration list for PBXProject "doors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A1E5751E1BA3DC0005D3C5 /* Debug */,
+				69A1E5761E1BA3DC0005D3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		69A1E5771E1BA3DC0005D3C5 /* Build configuration list for PBXNativeTarget "doors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A1E5781E1BA3DC0005D3C5 /* Debug */,
+				69A1E5791E1BA3DC0005D3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69A1E55D1E1BA3DC0005D3C5 /* Project object */;
+}

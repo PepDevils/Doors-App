@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_bramolde">
+
+    <TextView
+        android:id="@+id/ral_id"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+
+        android:text="RAL"
+        android:textColor="@color/colorAccent" />
+
+    <GridView
+        android:id="@+id/gridViewColors"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:numColumns="auto_fit"
+        android:columnWidth="@dimen/colorGridColumnWidth"
+        android:verticalSpacing="2dp"
+        android:horizontalSpacing="2dp"
+
+        >
+    </GridView>
+
+    <!-- android:numColumns="auto_fit"
+     android:stretchMode="columnWidth"
+     android:layout_gravity="center"
+      android:gravity="center"-->
+
+</FrameLayout>

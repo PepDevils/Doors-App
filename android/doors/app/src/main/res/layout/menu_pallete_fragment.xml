@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="50dp"
+    android:minWidth="50dp"
+    android:background="@color/gray_soft_bramolde"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/white_bramolde">
+    </View>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+        </View>
+
+        <ImageView
+            android:id="@+id/arrow_modelos"
+            android:layout_width="@dimen/icon_menu"
+            android:layout_height="@dimen/arrow_indicator"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/menu_arrow_indicator"
+            android:visibility="invisible"
+            android:scaleType="fitXY" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+
+        </View>
+
+        <ImageView
+            android:id="@+id/arrow_colors"
+            android:layout_width="@dimen/icon_menu"
+            android:layout_height="@dimen/arrow_indicator"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/menu_arrow_indicator"
+            android:visibility="invisible"
+            android:scaleType="fitXY" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+
+        </View>
+
+        <ImageView
+            android:id="@+id/arrow_material"
+            android:layout_width="@dimen/icon_menu"
+            android:layout_height="@dimen/arrow_indicator"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/menu_arrow_indicator"
+            android:visibility="invisible"
+            android:scaleType="fitXY" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+
+        </View>
+
+        <ImageView
+            android:id="@+id/arrow_dimensoes"
+            android:layout_width="@dimen/icon_menu"
+            android:layout_height="@dimen/arrow_indicator"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/menu_arrow_indicator"
+            android:visibility="invisible"
+            android:scaleType="fitXY" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+
+        </View>
+
+        <ImageView
+            android:id="@+id/arrow_info"
+            android:layout_width="@dimen/icon_menu"
+            android:layout_height="@dimen/arrow_indicator"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/menu_arrow_indicator"
+            android:visibility="invisible"
+            android:scaleType="fitXY" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+
+        </View>
+
+    </LinearLayout>
+
+
+    <!--ICONES DA PALLETE-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+        </View>
+
+        <ImageButton
+            android:id="@+id/bt_modelos"
+            android:layout_width="@dimen/icon_menu"
+            android:layout_height="@dimen/icon_height_menu"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/button_selector_modelos"
+            android:scaleType="fitXY" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+
+        </View>
+
+        <ImageButton
+            android:id="@+id/bt_colors"
+            android:layout_width="@dimen/icon_menu"
+            android:layout_height="@dimen/icon_height_menu"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/button_selector_cores"
+            android:scaleType="fitXY" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+
+        </View>
+
+        <ImageButton
+            android:id="@+id/bt_material"
+            android:layout_width="@dimen/icon_menu"
+            android:layout_height="@dimen/icon_height_menu"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/button_selector_materiais"
+            android:scaleType="fitXY" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+
+        </View>
+
+        <ImageButton
+            android:id="@+id/bt_dimensoes"
+            android:layout_width="@dimen/icon_menu"
+            android:layout_height="@dimen/icon_height_menu"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/button_selector_opcoes"
+            android:scaleType="fitXY" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+
+        </View>
+
+        <ImageButton
+            android:id="@+id/bt_info"
+            android:layout_width="@dimen/icon_menu"
+            android:layout_height="@dimen/icon_height_menu"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/button_selector_info"
+            android:scaleType="fitXY" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+
+        </View>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/gray_bramolde">
+    </View>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/white_bramolde">
+    </View>
+
+</LinearLayout>

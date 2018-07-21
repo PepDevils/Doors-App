@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="match_parent"
+    android:background="@color/white_bramolde"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_orc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orçamento:"
+        android:textStyle="bold"
+        android:textColor="@color/blue_bramolde"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/et_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_shape2"
+        android:hint="NOME"
+        android:textColorHint="@color/gray_bramolde"
+        android:inputType="textAutoComplete|textPersonName"
+        android:maxLength="15"
+        android:padding="3dp"
+        android:textColor="@color/gray_bramolde"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_localidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittext_shape2"
+        android:hint="LOCALIDADE"
+        android:textColorHint="@color/gray_bramolde"
+        android:inputType="textAutoComplete|text"
+        android:padding="3dp"
+        android:textColor="@color/gray_bramolde"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittext_shape2"
+        android:hint="EMAIL"
+        android:textColorHint="@color/gray_bramolde"
+        android:inputType="textEmailAddress"
+        android:padding="3dp"
+        android:textColor="@color/gray_bramolde"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittext_shape2"
+        android:hint="CONTACTO TELEFÓNICO"
+        android:textColorHint="@color/gray_bramolde"
+        android:inputType="textAutoComplete|number"
+        android:padding="3dp"
+        android:textColor="@color/gray_bramolde"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_entrega"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittext_shape2"
+        android:hint="DATA DE ENTREGA  (dd/mm/aaaa)"
+        android:textColorHint="@color/gray_bramolde"
+        android:inputType="date"
+        android:padding="3dp"
+        android:textColor="@color/gray_bramolde"
+        android:textSize="14sp" />
+
+
+
+
+    <EditText
+        android:id="@+id/et_mensage"
+        android:layout_width="match_parent"
+        android:layout_height="335dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittext_shape2"
+        android:ems="10"
+        android:gravity="start|left"
+        android:hint="MAIS INFORMAÇÕES RELEVANTES"
+        android:textColorHint="@color/gray_bramolde"
+        android:inputType="textMultiLine"
+        android:lines="10"
+        android:maxLength="250"
+        android:maxLines="10"
+        android:padding="3dp"
+        android:textColor="@color/gray_bramolde"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/bt_enviar_orc"
+        android:layout_width="100dp"
+        android:layout_height="24dp"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:text="ENVIAR"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector_info_content"
+        android:textColor="@drawable/button_text_color"
+        android:textSize="12sp"/>
+
+</LinearLayout>
